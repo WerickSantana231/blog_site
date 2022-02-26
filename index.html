@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo"><a href="/">Blog <span>Site</span></a></h1>
+        
+            <a href="#" id="open" class="btn-open"><i class="material-icons">menu</i></a>
+            <ul>
+                <a href="#"  id="close" class="btn-close"><i class="material-icons">close</i></a>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#posts">Posts</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="posts" class="posts">
+        <article>
+            <h2>Post 01</h2>
+            <picture>
+                <source media="(max-width: 600px)" srcset="images/pexels-alesia-kozik-p.jpg" type="image/jpg">
+                <img src="images/pexels-alesia-kozik-m.jpg" alt="Image 01">
+            </picture>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, magnam non. Amet, ad. Aliquid, saepe natus, iste sed totam id cumque architecto dolores, eos est quis quos officia placeat voluptatem.</p>
+            <div><a href="" class="btn">Saiba Mais</a></div>
+        </article>
+        <article>
+            <h2>Post 02</h2>
+            <picture>
+                <source media="(max-width: 600px)" srcset="images/pexels-josh-hild-m.jpg" type="image/jpg">
+                <img src="images/pexels-josh-hild-m.jpg" alt="Image 01">
+            </picture>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, magnam non. Amet, ad. Aliquid, saepe natus, iste sed totam id cumque architecto dolores, eos est quis quos officia placeat voluptatem.</p>
+            <div><a href="" class="btn">Saiba Mais</a></div>
+        </article>
+        <article>
+            <h2>Post 03</h2>
+            <picture>
+                <source media="(max-width: 600px)" srcset="images/pexels-matt-jerome-connor-p.jpg" type="image/jpg">
+                <img src="images/pexels-matt-jerome-connor-m.jpg" alt="Image 01">
+            </picture>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, magnam non. Amet, ad. Aliquid, saepe natus, iste sed totam id cumque architecto dolores, eos est quis quos officia placeat voluptatem.</p>
+            <div><a href="" class="btn">Saiba Mais</a></div>
+        </article>
+    </main>
+    <section class="contato">
+        <article>
+            <h2 id="contato">Contato</h2>
+            <div>
+                <p><i class="material-icons">email</i><address><a href="mailto:werick.s.santana34@gmail.com">werick.s.santana34@gmail.com</a></address></p>        
+            </div>
+        </article>
+    </section>
+    <hr class="line">
+    <section class="sobre">
+        <article>
+            <h2 id="sobre">Sobre</h2>
+            <p>Site como aperfeiçoamento em <abbr title="HyperText Markup Language">HTML</abbr>, <abbr title="Cascading Style Sheets">CSS</abbr> e JavaScript</p>
+        </article>
+    </section>
+    <script src="js/app.js"></script>
+</body>
+</html>
